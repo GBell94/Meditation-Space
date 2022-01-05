@@ -7,8 +7,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,20 +17,47 @@ body {
     color: #0d0d0d;
 }
 
-h1 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     font-weight: 500;
     color: #0d0d0d;
 }
 
-h2 {
-    font-family: Oswald, sans-serif;
-    font-weight: 400;
-    color: #0d0d0d;
-}
 a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Style navigation */
+
+#logo {
+    font-size: 200%;
+    float:left;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 120%;
+}
+
+#menu, #logo {
+    line-height: 1.5em;
+}
+
+ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a:hover {
+    color: purple;
+    border-bottom: 2px solid #0d0d0d;
 }
 
 header {
@@ -39,6 +66,8 @@ header {
     top: 0;
     left: 0;
 }
+
+
 
 footer {
     background-color: #6db784;
@@ -51,7 +80,7 @@ footer {
   }
 
 
-/* Setting up the navigation bar */ 
+/* Setting up the navigation bar 
 
 .menuwrap {
     height: 6rem;
@@ -78,7 +107,7 @@ footer {
 
   .active {
     border-bottom: 2px solid #0d0d0d;
-  }
+  } */
 
 
   /* style social media icons in footer */
