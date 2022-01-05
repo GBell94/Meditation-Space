@@ -60,12 +60,27 @@ ul {
     border-bottom: 2px solid #0d0d0d;
 }
 
-header {
+/* Add the hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100px;
+    background: url("assets/images/mediensturmer-unsplash-resize(1).jpg")
+}
+
+/* header {
     background-color: #6db784;
     width: 100%;
     top: 0;
     left: 0;
-}
+} */
 
 
 
