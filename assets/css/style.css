@@ -89,9 +89,12 @@ nav {
 
 /* About Us section */
 
+ h2,
+ h3,
  p,
  ul {
-     margin-left: 20px;
+     margin-left: 2%;
+     margin-right: 2%;
  }
 
 li {
@@ -99,6 +102,49 @@ li {
     list-style-position: inside;
 }
 
+#about-us h1 {
+    font-size: 180%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#about-us h2, 
+p {
+    padding-bottom: 10px;
+}
+
+#learn h1 {
+    font-size: 180%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact {
+    background-color: #6db784;
+}
+
+#contact h1 {
+    font-size: 180%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact p {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #6db784;
+    text-align: center;
+}
 
 
 
