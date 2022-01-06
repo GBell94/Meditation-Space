@@ -31,28 +31,29 @@ a {
 
 /* Style navigation */
 
+nav {
+    background-color:#6db784;
+}
+
 #logo {
-    font-size: 200%;
-    float:left;
-    margin-left: 30px;
+    font-size: 280%;
+    text-align: center;
 }
 
 #menu {
     font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    
 }
 
 #menu, #logo {
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 
-ul {
-    float: right;
-}
-
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 30px;
+.nav-item {
+    padding: 10px;
 }
 
 #menu a:hover {
@@ -62,29 +63,48 @@ ul {
 
 /* Add the hero image */
 
-#hero-outer {
+.container {
     height: 600px;
     width: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    position: relative;
 }
 
-#hero-image {
+.hero-image {
     height: 600px;
-    width: 100px;
-    background: url("assets/images/mediensturmer-unsplash-resize(1).jpg")
+    width: 100%;
+    object-fit: cover;
 }
 
-/* header {
+#hero-text {
     background-color: #6db784;
-    width: 100%;
-    top: 0;
-    left: 0;
-} */
+}
+
+.hero-text {
+    font-size: 280%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+/* About Us section */
+
+ p,
+ ul {
+     margin-left: 20px;
+ }
+
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
 
 
 
-footer {
+
+
+
+/* footer {
     background-color: #6db784;
     text-align: center;
     font-size: 16pt;
@@ -92,7 +112,7 @@ footer {
     height: 50px;
     position: fixed;
     bottom: 0;
-  }
+  } */
 
 
 /* Setting up the navigation bar 
@@ -127,15 +147,15 @@ footer {
 
   /* style social media icons in footer */
 
-  .social-networks > span, ul {
+  /* .social-networks > span, ul {
     display: inline-block;
     margin: 10px;
     padding: 5px;
 }
 
 .social-icons > li {
-    display: inline;
-}
+    display: inline; 
+}*/
 
 
 
