@@ -142,13 +142,12 @@ p {
     padding: 20px;
     background-color: #fef9f8;
     margin: 20px auto;
-    opacity: .9;
 }
 
 .contact-form h2 {
     padding-bottom: 10px;
     text-align: center;
-    font-size: 250%;
+    font-size: 180%;
 }
 
 /* .contact-form h3 {
@@ -170,7 +169,7 @@ textarea {
     border: 1px solid #0d0d0d;
     resize: none;
     font-family: Roboto, sans-serif;
-    font-size: 80%;
+    /* font-size: 80%; */
 }
 
 .submit-button {
