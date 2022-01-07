@@ -18,7 +18,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Oswald, sans-serif;
     font-weight: 500;
     color: #0d0d0d;
@@ -82,14 +83,13 @@ nav {
 
 .hero-text {
     font-size: 280%;
-    text-transform: uppercase;
     text-align: center;
     padding: 20px 0 20px 0;
 }
 
 /* About Us section */
 
- h2,
+ #about-us h2,
  h3,
  p,
  ul {
@@ -102,7 +102,7 @@ li {
     list-style-position: inside;
 }
 
-#about-us h1 {
+#about-us h2 {
     font-size: 180%;
     text-align: center;
     text-decoration: underline;
@@ -110,12 +110,18 @@ li {
     padding-bottom: 10px;
 }
 
-#about-us h2, 
+#about-us h3 {
+    font-size: 140%;
+}
+
+#about-us h3,
 p {
     padding-bottom: 10px;
 }
 
-#learn h1 {
+/* Learn section */
+
+#learn h2 {
     font-size: 180%;
     text-align: center;
     text-decoration: underline;
@@ -135,6 +141,14 @@ p {
 
 /* styling the contact form */
 
+#signup h2 {
+    font-size: 180%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -144,11 +158,11 @@ p {
     margin: 20px auto;
 }
 
-.contact-form h2 {
+/* .contact-form h2 {
     padding-bottom: 10px;
     text-align: center;
     font-size: 180%;
-}
+} */
 
 /* .contact-form h3 {
     text-align: left;
@@ -197,7 +211,7 @@ textarea {
     background-color: #6db784;
 }
 
-#contact h1 {
+#contact h2 {
     font-size: 180%;
     text-align: center;
     text-decoration: underline;
