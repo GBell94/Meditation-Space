@@ -121,6 +121,10 @@ p {
 
 /* Learn section */
 
+#learn {
+    background-color: #6db784;
+}
+
 #learn h2 {
     font-size: 180%;
     text-align: center;
@@ -132,11 +136,15 @@ p {
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    margin: 2%;
+    /* margin-right: 2%;
+    margin-bottom: 2%; */
     background-color: #f1af99;
     border: 1px solid #0d0d0d;
+}
+
+.days {
+    border-right: 1px solid #0d0d0d;
 }
 
 /* styling the contact form */
