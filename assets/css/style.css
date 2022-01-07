@@ -162,7 +162,7 @@ p {
     text-align: center;
     text-decoration: underline;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .contact-form {
@@ -170,55 +170,46 @@ p {
     flex-direction: column;
     max-width: 650px;
     padding: 20px;
-    background-color: #fef9f8;
+    background-color: rgb(59, 58, 58);
     margin: 20px auto;
+    color: white;
 }
 
-/* .contact-form h2 {
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 180%;
-} */
-
-/* .contact-form h3 {
-    text-align: left;
-    padding-bottom: 10px; 
-} */
-
 .text-input {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     border: 1px, solid, #0d0d0d;
     font-family: Roboto, sans-serif;
 }
 
 textarea {
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #0d0d0d;
     resize: none;
     font-family: Roboto, sans-serif;
-    /* font-size: 80%; */
 }
 
 .submit-button {
     background-color: #6db784;
     color: #0d0d0d;
     border: 1px, solid, #0d0d0d;
+    border-radius: 5px;
     padding: 5px;
+    width: 33%;
+    align-self: center;
     font-family: Roboto, sans-serif;
-    font-size: 100%;
+    font-weight: 600;
+    font-size: 140%;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
-    width: 50%;
-    align-self: center;
 }
 
 .submit-button:hover {
-    background-color: #0d0d0d;
-    color:#fff;
+    background-color: #fff;
+    color: #0d0d0d;
 }
 
 /* Contact Us section */
