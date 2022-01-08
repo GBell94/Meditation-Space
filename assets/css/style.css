@@ -37,17 +37,36 @@ a {
 
 /* Style navigation */
 
-nav {
+/* nav {
     background-color:#6db784;
-}
+} */
 
 #logo {
     font-size: 280%;
     text-align: center;
     text-transform: uppercase;
+    /*line-height: 1.8em;*/
 }
 
-#menu {
+.nav-container {
+    background-color: #6db784;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+}
+
+.nav-container a {
+    font-size: 150%;
+}
+
+.nav-container a:hover {
+    color:#fef9f8;
+    border-bottom: 2px solid #0d0d0d;
+}
+
+/* #menu {
     font-size: 120%;
     text-transform: uppercase;
     text-align: center;
@@ -66,11 +85,11 @@ nav {
 #menu a:hover {
     color:#fef9f8;
     border-bottom: 2px solid #0d0d0d;
-}
+} */
 
 /* Hero image and text below */
 
-.container {
+.hero-container {
     height: 600px;
     width: 100%;
     margin: 0 auto;
@@ -142,7 +161,7 @@ p {
 
 /* Flexbox for course days information */ 
 
-.flex-container {
+.learn-container {
     display: flex;
     flex-direction: row;
     margin: 1.5%;
@@ -150,7 +169,7 @@ p {
     border: 1px solid #0d0d0d;
 }
 
-.flex-container h3 {
+.learn-container h3 {
     padding-bottom: 2px;
 }
 
@@ -199,7 +218,7 @@ textarea {
     border: 1px, solid, #0d0d0d;
     border-radius: 5px;
     padding: 5px;
-    width: 33%;
+    width: 40%;
     align-self: center;
     font-family: Roboto, sans-serif;
     font-weight: 600;
@@ -236,4 +255,23 @@ footer {
     background-color: #6db784;
     text-align: center;
     font-size: 150%;
+}
+
+/* Media queries */
+
+/* For screen sizes 600px and down */
+
+@media screen and (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .learn-container {
+        flex-direction: column;
+    }
+    .days {
+        border-right: none;
+    }
+    .hero-text {
+        padding: 10px 0;
+    }
 }
