@@ -96,17 +96,18 @@ No errors were returned when passing through the official [W3C validator](https:
 ![W3 validator screenshot](/DOCS/W3-validator-screenshot.png)
 - CSS
 
-No errors wer returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
-![Jigsaw screenshot](Jigsaw-validator-screenshot.png)
+![Jigsaw screenshot](/DOCS/Jigsaw-validator-screenshot.png)
 
 ## Deployment
 
 The site was deployed to GitHub pages. The steps followed are:
 
 - In the GitHub repository, navigate to the Settings tab.
-- From the source section drop-down menu, select the Master branch.
-- Once this has been selected, the page will be automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
+- Scroll down and click on Pages.
+- From the source section drop-down menu, select the Master branch and click Save.
+- Once this has been selected, the page will be automatically be refreshed with a blue ribbon display to indicate the successful deployment.
 
 The live link can be found here: <https://gbell94.github.io/Meditation-Space>
 
