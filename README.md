@@ -23,38 +23,99 @@ The navigation bar is fully responsive and includes links to each of the main se
 
 ### Image
 
-![nav bar screenshot](/DOCS/Hero-image-and-text-screenshot.png)
+![hero image screenshot](/DOCS/Hero-image-and-text-screenshot.png)
 
 The image conveys the theme of the site and also indicates that it is possible to meditate anywhere, which is referred to in the About Us section. The tag line references the fact that a typical TM session is 20 minutes long and also that site visitors are most likely to be looking for a way to find a sense of calm in their lives but without needing a huge commitment of time.
 
 ### About Us
 
-![nav bar screenshot](/DOCS/About-us-screenshot.png)
+![about us screenshot](/DOCS/About-us-screenshot.png)
 
 This section provides the user with some information about TM, what it is and how it is practised, together with the benefits of regular practice.
 
 ### Learn
 
-![nav bar screenshot](/DOCS/Learn-section-screenshot.png)
+![learn screenshot](/DOCS/Learn-section-screenshot.png)
 
 Users can see how they will learn online, how the course is structured and the time commitment, as well as the cost.
 
 ### Sign Up
 
-![nav bar screenshot](/DOCS/Sign-up-form-screenshot.png)
+![sign up screenshot](/DOCS/Sign-up-form-screenshot.png)
 
 Users can start their learning journey by signing up for further information on the course and dates offered. They also have the option of leaving a short message if they have a specific query.
 
 ### Contact
 
-![nav bar screenshot](/DOCS/contact-section-screenshot.png)
+![contact screenshot](/DOCS/Contact-section-screenshot.png)
 
 This section provides the user with the teacher's phone number and email if they wish to make contact directly. 
 
 ### Footer
 
-![nav bar screenshot](/DOCS/social-media-icons-screenshot.png)
+![footer screenshot](/DOCS/social-media-icons-screenshot.png)
 
-Social media links for the teacher. The links open in a new tab to allow easier navigation for the user. This encourages users to keep connected to the teacher.
+The social media links open in a new tab to allow easier navigation for the user. Having these available encourages users to keep connected to the teacher.
+
+### Features to implement
+
+An actual teacher of TM could add:
+
+More course information, to include in-person training.
+Dates of courses.
+Booking and payments system.
+A blog.
+Testimonials for social proof.
+
+## Testing
+
+Manual testing of the site: 
+
+All navigation elements link to the appropriate sections of the site. 
+Sign up form: the form cannot be submitted if the name and email fields are empty or the text in the email input box is not an email address. Submission is to the Code Institute form dump.
+The social media icons in the footer open up in new tabs. 
+The site opens and functions as expected in Chrome and Firefox browsers.
+
+Responsiveness:
+
+Chrome and Firefox dev tools were used to check the site responsiveness at various browser sizes.
+The [amiresponsive](http://ami.responsivedesign.is/) website was used to create a multi-device mock-up of the site as an additional check on how the site displays across various media. 
+
+
+In addition, the Lighthouse feature of Chrome dev tools was used to assess the site accessibility and received a score of 100.
+
+![Lighthouse screenshot](/DOCS/Lighthouse-screenshot.png)
+
+Validator Testing
+
+HTML
+
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
+
+CSS
+
+No errors wer returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps followed are as follows:
+
+In the GitHub repository, navigate to the Settings tab.
+From the source section drop-down menu, select the Master branch.
+Once this has been selected, the page will be automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here:
+
+## Credits
+
+Content
+
+Information about TM was taken from the following sites: [TM UK]   [The Meditation Trust]   [Twenty Minutes Meditation]
+
+The image is by Mediensteurmer on Unsplash.
+The social media icons are from Font Awesome v5.
+
+Information on using flexbox was taken from W3 schools tutorial.
+
 
 
