@@ -173,7 +173,7 @@ p {
 .text-input {
     margin: 10px 0;
     padding: 10px;
-    border: 1px, solid, #0d0d0d;
+    border: 1px solid #0d0d0d;
     font-family: Roboto, sans-serif;
 }
 
@@ -188,7 +188,7 @@ textarea {
 .submit-button {
     background-color: #6db784;
     color: #0d0d0d;
-    border: 1px, solid, #0d0d0d;
+    border: 1px solid #0d0d0d;
     border-radius: 5px;
     padding: 5px;
     width: 40%;
