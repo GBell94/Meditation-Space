@@ -81,7 +81,7 @@ An actual teacher of TM could add:
 - Chrome and Firefox dev tools were used to check the site responsiveness at various browser sizes.
 - The [amiresponsive](http://ami.responsivedesign.is/) website was used to create a multi-device mock-up of the site as an additional check on how the site displays across various media. 
 
-![amiresponsive screenshot]()
+![amiresponsive screenshot](/DOCS/amiresponsive-screenshot.png)
 
 In addition, the Lighthouse feature of Chrome dev tools was used to assess the site accessibility and received a score of 100.
 
@@ -93,9 +93,12 @@ In addition, the Lighthouse feature of Chrome dev tools was used to assess the s
 
 No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
+![W3 validator screenshot](/DOCS/W3-validator-screenshot.png)
 - CSS
 
 No errors wer returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+![Jigsaw screenshot](Jigsaw-validator-screenshot.png)
 
 ## Deployment
 
@@ -105,7 +108,7 @@ The site was deployed to GitHub pages. The steps followed are:
 - From the source section drop-down menu, select the Master branch.
 - Once this has been selected, the page will be automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here: <>
+The live link can be found here: <https://gbell94.github.io/Meditation-Space>
 
 ## Credits
 
